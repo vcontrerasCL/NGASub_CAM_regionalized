@@ -8,3 +8,7 @@ NOTE: The model was not modified for any region outside of CAM.
 
 The foundation of the original model is detailed in the following paper:
 Parker G.A., Stewart J.P., Boore D.M., Atkinson G.M., Hassani B. (2022). NGA-subduction global ground motion models with regional adjustment factors. Earthquake Spectra, 38(1), 456-493.
+
+The main scripts are "GMM_at_VS30_IF_v5.R" and "GMM_at_VS30_Slab_v5.R" for interface and instraslab earthquakes, respectively. These sripts call two subroutines:
+1. "CAM_backarc_attenuation.R": that estimates the backarc anelastic attenuation in Central America & Mexico (CAM) conditioned on oscilator period (T), R<sub>rup, b</sub>, and earthquake type (interface or intraslab).
+2. "site_resp_VM.R": that  estimates the site response for the Valley of Mexico conditioned on oscilator period (T), PGA<sub>r</sub>, V<sub>S30</sub>, and z<sub>LCG</sub>.
