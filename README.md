@@ -8,7 +8,7 @@ The ground motion model (GMM) implemented in codes provided in this repository i
 **NOTE:** The model was not modified for any region outside of CAM.
 
 The basis for the original model is presented in the following paper:
-Parker G.A., Stewart J.P., Boore D.M., Atkinson G.M., Hassani B. (2022). NGA-subduction global ground motion models with regional adjustment factors. *Earthquake Spectra*, **38(1)**, 456-493.https://doi.org/10.1177/87552930211034889
+Parker G.A., Stewart J.P., Boore D.M., Atkinson G.M., Hassani B. (2022). NGA-subduction global ground motion models with regional adjustment factors. *Earthquake Spectra*, **38(1)**, 456-493. https://doi.org/10.1177/87552930211034889
 
 The main scripts are "GMM_at_VS30_IF_v5.R" and "GMM_at_VS30_Slab_v5.R" for interface and intraslab earthquakes, respectively. These scripts call two subroutines:
 1. "CAM_backarc_attenuation.R": that estimates the backarc anelastic attenuation in Central America & Mexico (CAM) conditioned on oscilator period (T), R<sub>rup, b</sub>, and earthquake type (interface or intraslab).
